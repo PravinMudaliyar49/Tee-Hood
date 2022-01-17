@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Raleway:wght@300&family=Roboto+Condensed:ital,wght@1,300;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1: pink;
+    --color2: cyan;
+    --color3: wheat;
+    --color4: black;
+    --font1: 'Dongle', sans-serif;
+    --font2: 'Raleway', sans-serif;
+    --font3: 'Roboto Condensed', sans-serif;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.my-1{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.btn1{
+    border: 3px solid var(--color4);
+}
+
+.btn1:hover{
+    color: var(--color1);
+}
+
+.btn2{
+    border: 3px solid var(--color4);
+    
+}
+
+.btn2:hover{
+    color: var(--color2);
+
+}

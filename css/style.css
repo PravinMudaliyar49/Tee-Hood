@@ -27,7 +27,8 @@
 .nav-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 4px;
+    padding: 6px;
+    margin-top: 2px;
 }
 
 .nav-bottom * {
@@ -44,11 +45,38 @@
     display: flex;
 }
 
-.nav-left ul li {
+.nav-left ul * {
     margin: 0 24px;
     transition: all 0.9s ease-in-out;
+    cursor: pointer;
 }
 
 .nav-right * {
-    margin: 0 9px;
+    margin: 0 8px;
+}
+
+.form-input {
+    padding: 4px;
+    font-size: 15px !important;
+    border: 3px solid var(--color1);
+    border-radius: 4px;
+    width: 18vw;
+    font-family: var(--font2);
+}
+
+.cont {
+    position: relative;
+}
+
+.modal {
+    height: calc(100vh - 50vh);
+    width: calc(100vw - 20vw);
+    position: absolute;
+    top: 68px;
+    left: calc(100vw - 90vw);
+    border-radius: 10px;
+    display: none;
+    background-color: var(--color6);
+    border: 3px solid var(--color1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

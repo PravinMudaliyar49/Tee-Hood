@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/util.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/navscript.js" defer></script>
     <title>TeeHood</title>
 </head>
 
@@ -21,28 +22,36 @@
                 </ul>
             </div>
 
-            <div class="nav-bottom my-1">
+            <div class="nav-bottom">
                 <div class="nav-left">
                     <span class="logo mx-1">TeeHood</span>
 
                     <ul>
-                        <li> <a href="">Home</a> </li>
-                        <li> <a href="">About</a> </li>
-                        <li> <a href="">Contact</a> </li>
+                        <div class="home-btn">
+                            <span>Home</span>
+                            <div class="modal home"></div>
+                        </div>
+
+                        <div class="about-btn">
+                            <span>About</span>
+                            <div class="modal about"></div>
+                        </div>
+
+                        <span class="contact-btn">Contact</span>
                     </ul>
                 </div>
 
                 <div class="nav-right">
-                    <input type="text">
+                    <input class="form-input" type="text" placeholder="Search">
                     <span>Cart</span>
                 </div>
             </div>
 
 
         </nav>
-    </header>
 
-    <main></main>
+        <hr>
+    </header>
 
     <footer></footer>
 

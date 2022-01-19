@@ -15,11 +15,12 @@ li {
 }
 
 :root {
-    --color1: pink;
+    --color1: #b2bec3;
     --color2: cyan;
     --color3: wheat;
     --color4: black;
     --color5: rgba(128, 128, 128, 0.89);
+    --color6: #ecf0f1;
     --font1: 'Dongle', sans-serif;
     --font2: 'Raleway', sans-serif;
     --font3: 'Roboto Condensed', sans-serif;

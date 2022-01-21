@@ -23,12 +23,12 @@ aboutBtn.addEventListener("mouseleave", () => {
     aboutModal.style.display = "none";
 });
 
-//Sliding images:
+// Sliding images:
 
-//To scroll the images vertically, search: css element srolling horizontally OR look at bookmarks.
+// To scroll the images vertically, search: css element srolling horizontally OR look at bookmarks.
 
 let slideIdx = 0;
-// myManualSlide();
+myManualSlide();
 
 function plusSlides(n) {
     slideIdx += n;
@@ -36,9 +36,9 @@ function plusSlides(n) {
 }
 
 // Thumbnail image controls
-// function currentSlide(n) {
-//     myManualSlide(slideIdx = n);
-// }
+function currentSlide(n) {
+    myManualSlide(slideIdx = n);
+}
 
 function myManualSlide() {
     var slides = document.querySelectorAll(".mySlides");
@@ -61,23 +61,23 @@ function myManualSlide() {
 
 
 
-var slideIndex = -1;
-myAutoSlides();
+// var slideIndex = -1;
+// myAutoSlides();
 
-function myAutoSlides() {
-    var slides = document.querySelectorAll(".mySlides");
-    var dots = document.querySelectorAll(".dot");
+// function myAutoSlides() {
+//     var slides = document.querySelectorAll(".mySlides");
+//     var dots = document.querySelectorAll(".dot");
 
-    slides.forEach(slide => slide.style.display = "none");
-    dots.forEach(dot => dot.className = dot.className.replace(" active", ""));
+//     slides.forEach(slide => slide.style.display = "none");
+//     dots.forEach(dot => dot.className = dot.className.replace(" active", ""));
 
-    slideIndex++;
-    if (slideIndex >= slides.length) { slideIndex = 0 }
+//     slideIndex++;
+//     if (slideIndex >= slides.length) { slideIndex = 0 }
 
-    slides[slideIndex].style.display = "block";
+//     slides[slideIndex].style.display = "block";
 
-    setTimeout(myAutoSlides, 3000); // Change image every 2 seconds
-}
+//     setTimeout(myAutoSlides, 3000); // Change image every 2 seconds
+// }
 
 
 // })();

@@ -86,3 +86,63 @@
     border: 3px solid var(--color1);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.banner {
+    background-color: aqua;
+    height: 100px;
+    width: 95vw;
+    margin: 35px auto;
+}
+
+.widget-slider-wrapper {
+    background-color: aqua;
+    height: 150px;
+    width: 95vw;
+    margin: 35px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.widget-slider-wrapper ul {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+}
+
+.widget-slider-wrapper ul li {
+    margin: 0 20px;
+}
+
+.widget-slider-innner {
+    background-color: var(--color6);
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.widget-slider-innner a {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-slider-innner a img {
+    height: 115px;
+    width: 267px;
+    padding: 4px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.widget-slider-wrapper ul::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.widget-slider-wrapper ul {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
